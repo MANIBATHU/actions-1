@@ -53,7 +53,7 @@ jobs:
          name: dragon-text-file
 
       - name: Test File Exists
-        run: grep -i "dragos" dragon.txt
+        run: grep -i "dragon" dragon.txt
 
   deploy-job_3:
     needs: [test_job_2]  # Runs after the test_job completes successfully
